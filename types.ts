@@ -15,7 +15,7 @@ export interface Product {
   imageUrl: string;
 }
 
-export interface FormData {
+export interface ContactFormInputs {
   name: string;
   contact: string;
   projectType: string;

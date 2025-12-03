@@ -8,7 +8,7 @@ import {
 import { Button } from './components/Button';
 import { SectionTitle } from './components/SectionTitle';
 import { PRODUCTS, SERVICES, NAV_LINKS } from './constants';
-import { Category, FormData } from './types';
+import { Category } from './types';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
